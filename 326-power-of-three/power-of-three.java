@@ -5,8 +5,8 @@ class Solution {
         if (n == 1) return true;
         while(q % 3 == 0){
             q = q/3;
-            if(q == 1) return true;
         }
+        if(q == 1) return true;
         return false;
     }
 }
